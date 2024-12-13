@@ -9,3 +9,4 @@ This is just a quick hack.  Honestly you're better off just manually uploading y
 5. Get an API key from OpenAI and/or Anthropic and store it in your shell environment.  Add some credits ($$) to your account to pay for your requests.  During debugging I spent about $1.00 on OpenAI.
 6. Edit the code to point to your sample video.  Modify other configuration variables as needed.
 7. Run it: python describe_images.py
+8. By default, press space whenever you want to send images for labeling.  A handful of recent frame will be sent (see configuration options to control how many and how they are spaced in time).  Press the escape (ESC) key to exit.
